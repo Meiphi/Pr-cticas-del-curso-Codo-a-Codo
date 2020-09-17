@@ -1,0 +1,22 @@
+Javascript es un lenguaje base de la web
+
+Debilmente tipado. 
+
+Se esta trabajando en Time scrip
+
+El único lenguaje que se interpreta a traves del front
+
+Dinamico != Interactivo. 
+Dinamico es cuando trabajamos datos
+
+Se potencia como lenguaje cuando empieza a trabajar del lado del servidor
+
+Junto a NODEJS 
+
+Usaremos la consola que tiene la capacidad de leer los datos del archivo html y los scripts
+
+A Javascript lo conecaremos a html y css mediante objetos, entonces los datos los manejamos en objetos
+ese objeto se llama document
+
+Con console.dir(document): entramos en el documento de nuestra pagina desde js
+
