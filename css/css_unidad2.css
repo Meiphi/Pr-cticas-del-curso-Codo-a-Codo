@@ -1,0 +1,13 @@
+div.number{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	display: inline-block;
+	color: orange;
+	font-size: 2em;
+}
+
+#dos{
+	background-color: black;
+	color: white;
+}
