@@ -5,3 +5,6 @@ tragos a tomado.
 puede manejar.
 2. Si el usuario indica que no ha tomado nada, entonces decirle que “Nos alegra que
 seas un conductor responsable".*/
+
+cantidadTragos = prompt("Cuantos tragos tomo?")
+alert(cantidadTragos > 0 ? "No puede manejar" : "Nos alegra que seas un conductor responsable")

@@ -9,3 +9,17 @@ parsearlo).
 del que dijo el usuario.
 5. Por último, si el usuario no adivina el número, deberá aparecer un mensaje
 diciendo que se equivocó.*/
+
+let numeroSecreto = 3
+let numeroAdivinado = prompt("Adivine el numero")
+
+if (numeroSecreto === parseInt(numeroAdivinado)){
+	alert("Adivino!")
+}else if (numeroSecreto > numeroAdivinado){
+	alert("No. El numero es alto")
+	alert("No adivino nada")
+}else{
+	alert("No. El numero es mas bajo")
+	alert("No adivino nada")
+
+}
