@@ -8,3 +8,11 @@ Por ejemplo, si el usuario escribe 5 se deberá generar lo siguiente:
 ...........
 ...........
 5 x 10 = 50*/
+
+let numero = parseInt(prompt("Numero:"))
+let multiplicador = 1
+while(multiplicador <= 10){
+	producto = numero * multiplicador
+	console.log(numero + " x " + multiplicador + " = " + producto)
+	multiplicador++
+}
