@@ -6,3 +6,19 @@ tareas especificadas en el array.
 3. Borrar el item del array toDoList, que ha sido devuelto por el
 método indexOf().
 */
+
+let toDoList = [
+"Tomar cafe", 
+"Ejercicios de JavaScript", 
+"Instalar base de datos",
+"Avanzar con base de datos", 
+"Arreglar el GitHub"
+]
+
+console.log("indice de 'Avanzar con base de datos':  " + toDoList.indexOf("Avanzar con base de datos"))
+
+toDoList.splice(toDoList.indexOf("Avanzar con base de datos"))
+
+console.log("lista actualizada: " + toDoList)
+
+

@@ -4,3 +4,16 @@
 la consola, con el siguiente mensaje: “Las frutas que hay en la
 ensalada son:”
 */
+
+let ensaladaDeFrutas = [
+"banana", 
+"durazno", 
+"manzana", 
+"naranja", 
+"anana", 
+"frutilla", 
+"vodkaxd"]
+
+for (let i = 0; i < ensaladaDeFrutas.length; i++) {
+	console.log("Las frutas que hay en la ensalada son: " + ensaladaDeFrutas[i])
+}
