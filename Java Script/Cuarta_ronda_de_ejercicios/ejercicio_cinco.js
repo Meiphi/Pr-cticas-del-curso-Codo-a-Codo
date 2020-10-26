@@ -5,7 +5,7 @@ que los "Strings" son listas de caracteres y que las listas tienen un
 largo (length) que indica su tamaño.
 */
 
-let nombres = ["Angel", "Barbara", "Celeste", "Daniella", "Esmeralda", "Federico"]
+let nombres = ["Angel", "Barbara", "Celeste", "Daniella", "Esmeralda", "Fedterico"]
 
 nombreLargo = nombres[0]
 for (var i = 0; i < nombres.length; i++) {
