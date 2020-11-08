@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+	height: 100vh;
+	background: #30F;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*RGB*/
+
+h1{
+	font-family: helvetica;
+	text-align: center;
+	color: #fff;
+	padding: 1em;
+}
+
+.tablero{
+	width: 450px;
+	height: 450px;
+}
+.fila{
+	display: flex;
+	flex-direction: row;
+}
+
+.celda{
+	width: calc((450px - 6px) / 3);
+	height: calc((450px - 6px) / 3);
+	border: solid 1px #022;
+	background: #fff;
+}
+
+.rojo{
+	background: #F04;
+}
+
+.verde{
+	background: #2f0;
+}

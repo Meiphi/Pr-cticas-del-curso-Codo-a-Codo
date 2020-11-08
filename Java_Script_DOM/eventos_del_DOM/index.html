@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eventos del DOM</title>
+</head>
+<body>
+	<button id="boton">Boton</button>
+	<input type="text" id="input">
+	<script type="text/javascript">
+		(function(){
+			let saludo = function(){
+				alert("saludo");
+			};
+
+			let saludo2 = function(){
+				alert("saludo2");
+			}
+
+			let boton = document.getElementById('boton');
+			boton.addEventListener("click", saludo);
+			boton.addEventListener("click", saludo2);
+		}())
+	</script>
+</body>
+</html>

@@ -1,1 +1,36 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modificando Estilos de los Elementos</title>
+	<style>
+		.thumb{
+			width: 200px;
+			transition: 300ms all ease;
+		}
+
+		.grande{
+			width: 400px;
+		}
+
+		.titulo{
+			border: 1px solid navy;
+		}
+
+		.tituloGrande{
+			font-size: 60px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="encabezado" class="tituloGrande">Soy un encabezado \^.^/ </h1>
+	<script type="text/javascript">
+		let encabezado = document.getElementById("encabezado")
+/*		encabezado.style.color = 'navy';
+		encabezado.style.background = 'pink'
+*/		encabezado.className = encabezado.className.replace("")
+
+</script>
+</body>
+</html>
